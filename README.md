@@ -3,12 +3,12 @@
 ### AI-Powered Flood Relief Allocation & Disaster Response Platform
 
 **SmartFlood** is an evolving disaster-response platform developed through
-multiple iterations of experimentation, system redesign, AI research,
-IoT integration, cloud deployment, and DevSecOps learning.
+multiple generations of experimentation, system redesign, AI research,
+IoT integration, cloud deployment, and DevSecOps engineering.
 
 This repository serves as the **canonical index and engineering history of the
-SmartFlood ecosystem**, documenting the evolution of the project and linking
-its individual implementations, experiments, and major releases.
+SmartFlood ecosystem**, documenting its implementations, experiments,
+architectural transitions, and major releases.
 
 > **One project. Multiple generations. Continuous engineering evolution.**
 
@@ -20,9 +20,9 @@ its individual implementations, experiments, and major releases.
 V1 → V2 → V3 → V4 → V4.1 → V5 → AWS
 ```
 
-Each generation represents a different stage of SmartFlood's development,
-from early experimentation to increasingly structured engineering,
-cloud deployment, and future AWS infrastructure.
+Each generation represents a different engineering objective, from early
+prototyping to structured development, cloud deployment, and personal
+AWS / DevSecOps exploration.
 
 ---
 
@@ -69,8 +69,7 @@ The architecture was still being discovered, multiple approaches were tested,
 and some implementations were eventually abandoned or replaced.
 
 Some historical V1 repositories may no longer run with modern dependencies or
-environments. They are preserved here as part of the project's development
-history.
+environments. They are preserved as part of the project's development history.
 
 ---
 
@@ -78,7 +77,7 @@ history.
 
 V2 represented a significant step forward from the initial prototype.
 
-The frontend was consolidated into a more structured repository architecture
+The frontend was consolidated into a more structured repository architecture,
 while the deployment model went through several iterations.
 
 ## V2 Repository
@@ -256,36 +255,31 @@ and cohesive user-facing interface.
 
 # ☁️ V5 — AWS Engineering Challenge
 
-V5 represents a new chapter in the SmartFlood project.
+V5 begins a new chapter in the SmartFlood project.
 
-Unlike previous generations, V5 is **not part of the academic Capstone
+Unlike previous generations, **V5 is not part of the academic Capstone
 implementation**.
 
 It is a **self-directed personal engineering challenge** created to explore
-AWS and deepen practical knowledge of cloud infrastructure, networking,
-security, automation, and DevSecOps.
+AWS and deepen practical skills in cloud infrastructure, networking,
+security, automation, observability, and DevSecOps.
 
-Rather than learning AWS through isolated tutorials, SmartFlood will be used
-as a realistic application and engineering laboratory.
+SmartFlood serves as the application through which these concepts are
+designed, implemented, tested, and evaluated.
 
 ## 🎯 Objective
 
-The goal of V5 is not simply to **deploy SmartFlood on AWS**.
+The goal of V5 is not simply to deploy SmartFlood on AWS.
 
-The goal is to answer:
+The challenge is:
 
 > **"Can I design, deploy, secure, automate, observe, and operate a real
 > application using AWS infrastructure?"**
 
-SmartFlood provides the application.
+V5 is intentionally treated as an evolving engineering experiment rather
+than a fixed final architecture.
 
-AWS provides the engineering environment.
-
----
-
-## 🧪 V5 as a Personal Cloud Laboratory
-
-V5 will be used to experiment with:
+## 🧪 Areas of Exploration
 
 - AWS fundamentals
 - IAM
@@ -303,14 +297,9 @@ V5 will be used to experiment with:
 - DevSecOps
 - Cost management
 
-The architecture may change throughout the experiment as new AWS concepts
-are learned and evaluated.
-
----
+**Current focus:** AWS fundamentals → IAM → Compute
 
 ## 🏗️ Engineering Approach
-
-V5 will intentionally evolve through multiple infrastructure iterations.
 
 ```text
 Local Development
@@ -335,25 +324,11 @@ Security & DevSecOps
 The objective is to understand **why** each architectural decision is made,
 not simply to reproduce a tutorial.
 
----
-
 ## 📦 V5 Repository
 
 | Repository | Purpose |
 |---|---|
 | [SmartFlood-V5](https://github.com/wendev27/SmartFlood-V5) | Personal AWS engineering challenge and cloud-infrastructure laboratory built around SmartFlood. |
-
----
-
-## 🧭 V5 Philosophy
-
-> **V5 is a personal engineering challenge, not another capstone version.**
-
-> SmartFlood is the laboratory. AWS is the environment.  
-> The objective is to learn how to engineer, secure, automate, and operate
-> cloud infrastructure.
-
----
 
 ## 🚧 Status
 
@@ -396,7 +371,7 @@ DevSecOps
 ```
 
 The project therefore documents not only the evolution of the software,
-but also the evolution of the development practices used to build it.
+but also the evolution of the engineering practices used to build it.
 
 ---
 
@@ -441,7 +416,7 @@ of SmartFlood.
 - V4 cloud deployment
 - V4.1 frontend design
 
-## 🚧 Future
+## 🚧 Active / Future
 
 - V5 AWS exploration
 - Infrastructure as Code
@@ -482,8 +457,8 @@ SmartFlood will continue evolving as these questions are explored.
 SmartFlood represents an ongoing engineering journey.
 
 It started with experimentation and gradually evolved into an integrated
-platform, a cloud-deployed capstone system, and eventually a personal AWS
-engineering laboratory.
+platform, a cloud-deployed capstone system, and a personal AWS engineering
+laboratory.
 
 The goal is not to claim that every iteration was perfect.
 
@@ -499,6 +474,6 @@ The goal is to document how each iteration contributed to the next.
 >
 > **V4.1 — Refine.**
 >
-> **V5 — Challenge.**
+> **V5 — Engineer for the Cloud.**
 
 **SmartFlood — continuously evolving.**
